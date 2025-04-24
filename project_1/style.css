@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #222;
+    background: #3c5e55;  
 }
 .card{
     width: 90%;
@@ -58,6 +58,40 @@ body{
     font-weight: 400;
     margin-top: -10px;
 }
-/* .details{
-    
-} */
+.details{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 20px;
+ margin-top: 50px;   
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28x;
+    margin-top: -6px;
+}
+
+/* footer start */
+
+footer {
+    background-color: #3c5e55s;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+  
+  .copyright {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
