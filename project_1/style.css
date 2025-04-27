@@ -78,6 +78,18 @@ body{
     font-size: 28x;
     margin-top: -6px;
 }
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
 
 /* footer start */
 
