@@ -1,0 +1,16 @@
+const inputBox = document.getElementById("input-box");
+const listContainer = document.getElementById("list-container");
+function addTAsk() {
+    if (inputBox.value === '') {
+        alert("kayi lekhe ko xoinas talie ADD garna hatar hunxa!");
+    }
+    else {
+        let li = document.createElement("li");
+        li.innerHTML = inputBox.value;
+        listContainer.appendChild(li);
+        let span = document.createElement("span");
+        span.innerHTML = "\u00d7";
+        li.appendChild(span);
+    }
+    inputBox.value = "";
+}
