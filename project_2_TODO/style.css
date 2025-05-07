@@ -96,5 +96,19 @@ ul li span{
     border-radius: 50%;
 }
 ul li span:before{
-    background: black;
+    background: #000000;
 }
+
+footer {
+    background: linear-gradient(140deg, #1349b4, #4e085f);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+  
+  .copyright {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
