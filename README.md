@@ -22,4 +22,18 @@ The Weather Web App delivers real-time weather updates with a sleek and responsi
 HTML | CSS | JavaScript | OpenWeatherMap API
 
 # ✅ Project 2: To-Do Web App
-The To-Do Web App helps users organize tasks efficiently with a simple and user-friendly interface. It’s designed to keep productivity on track!
+The To-Do Web App helps users organize tasks efficiently with a clean and user-friendly interface. It's designed to boost productivity by letting users add, complete, and remove tasks—all while saving progress locally.
+
+## Features include:
+* Add, check off, and delete tasks.
+* Persistent data storage using localStorage.
+* Visual feedback for completed tasks.
+* Lightweight and fast performance.
+
+### How to Use
+1. Clone the repo:-git clone https://github.com/DAJUSP/project_30.git
+2. Navigate to /project_2_todo_app.
+3. Open index.html in your browser to start using the app.
+
+### Tech Stack
+HTML | CSS | JavaScript | LocalStorage
