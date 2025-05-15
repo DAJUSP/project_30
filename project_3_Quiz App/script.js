@@ -38,10 +38,10 @@ const questions = [
     {
         question: "Who was the first person to walk on the Moon?",
         answers: [
-            { Text: "Neil Armstrong", correct: True },
             { Text: "Buzz Aldrin", correct: false },
             { Text: "Yuri Gagarin", correct: false },
             { Text: "Michael Collins", correct: false },
+            { Text: "Neil Armstrong", correct: True },
         ]
     }
 ];
