@@ -9,39 +9,39 @@ const questions = [
         ]
     },
     {
-        question: "which is largest animal in the world ?",
+        question: "Which planet is known as the Red Planet?",
         answers: [
-            { Text: "shark", correct: false },
-            { Text: "Blue whale", correct: True },
-            { Text: "Elephant", correct: false },
-            { Text: "Zibra", correct: false },
+            { Text: "Venus", correct: false },
+            { Text: "Mars", correct: True },
+            { Text: "Jupiter", correct: false },
+            { Text: "Saturn", correct: false },
         ]
     },
     {
-        question: "which is largest animal in the world ?",
+        question: "Who wrote the play Romeo and Juliet?",
         answers: [
-            { Text: "shark", correct: false },
-            { Text: "Blue whale", correct: True },
-            { Text: "Elephant", correct: false },
-            { Text: "Zibra", correct: false },
+            { Text: "William Wordsworth", correct: false },
+            { Text: "Charles Dickens", correct: false },
+            { Text: "William Shakespeare", correct: True },
+            { Text: "Jane Austen", correct: false },
         ]
     },
     {
-        question: "which is largest animal in the world ?",
+        question: "Which is the largest ocean on Earth? ?",
         answers: [
-            { Text: "shark", correct: false },
-            { Text: "Blue whale", correct: True },
-            { Text: "Elephant", correct: false },
-            { Text: "Zibra", correct: false },
+            { Text: "Atlantic Ocean", correct: false },
+            { Text: "Indian Ocean", correct: false },
+            { Text: "Arctic Ocean", correct: false },
+            { Text: "Pacific Ocean", correct: True },
         ]
     },
     {
-        question: "which is largest animal in the world ?",
+        question: "Who was the first person to walk on the Moon?",
         answers: [
-            { Text: "shark", correct: false },
-            { Text: "Blue whale", correct: True },
-            { Text: "Elephant", correct: false },
-            { Text: "Zibra", correct: false },
+            { Text: "Neil Armstrong", correct: True },
+            { Text: "Buzz Aldrin", correct: false },
+            { Text: "Yuri Gagarin", correct: false },
+            { Text: "Michael Collins", correct: false },
         ]
     }
 ];
@@ -71,16 +71,16 @@ function showQuestion() {
         button.innerHTML = answer.Text;
         button.classList.add("btn");
         answerButton.appendChild(button);
-        if (answer.correct){
+        if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
         button.addEventListener("click", selectAnswer);
     });
 }
 
-function resetState(){
-    nextButton.style.display  = "none";
-    while(answerButtons.firstChild){
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButton.firstChild);
     }
 }
